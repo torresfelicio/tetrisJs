@@ -1,10 +1,7 @@
-<center>#TetrisJS</center>
+# TetrisJS
 
 ![](assets/readme.gif)
 
-<center>##Simples e elegante</center>
+## Simples e elegante 
 
-
-![](assets/print1.png =300x300)     
-
-![](assets/print2.png =300x300)
+![](assets/print1.png)     ![](assets/print2.png)
