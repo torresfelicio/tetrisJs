@@ -5,9 +5,9 @@ function drawBoard() {
             drawSquare(currentRow, currentCol, currentSquareColor);
         }
     }
-
     scoreElement.innerHTML = score;
     speedElement.innerHTML = speed;
+
 }
 
 function drawSquare(y, x, color) {
@@ -87,6 +87,7 @@ function updateRowAndScore(row) {
     if (speed > 100) {
         speed -= 20;
     }
+    
 
     canMove = true;
 }

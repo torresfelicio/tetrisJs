@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap');
+
+body {
+    background: linear-gradient(45deg, #1f4068, #1b1b2f, #e43f5a);
+    background-size: 300% 400%;
+    color: #A393BF;
+    overflow: hidden;
+    animation: colors 10s ease-out infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#score #speed {
+    display: inline-block;
+}
+
+div {
+    font-size: 25px;
+    font-family: 'Bungee Inline', cursive;
+    text-align: center;
+}
+
+canvas {
+    display: flex;
+    margin: 0 auto;
+}
+
